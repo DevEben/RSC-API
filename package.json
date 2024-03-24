@@ -1,0 +1,31 @@
+{
+  "name": "rapidstockcontrolapi",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Eben Henry",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cloudinary": "^2.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "mongoose": "^8.1.1",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.9",
+    "nodemon": "^3.0.3",
+    "socket.io": "^4.7.4"
+  },
+  "devDependencies": {},
+  "description": ""
+}
